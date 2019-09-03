@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Educatech - Esqueceu a Senha?</title>
+    <link rel="icon" href="assets/icons/favicon.png">
+    <!-- Script do Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!-- Inicio do Menu -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #68c2e8;">
+        <a class="navbar-brand" href="home.html">
+            <img src="assets/icons/LogoBrancoHidden.png" width="120" height="30" class="d-inline-block align-top" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor03">
+            <ul class="navbar-nav mr-auto"></ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link" href=sobre.html target="_blank">Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ajuda.html" target="_blank">Ajuda</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Fim do Menu -->
+
+    <!-- Inicio do Formulário -->
+    <div class="container">
+
+        <div class="card o-hidden border-0 shadow-lg my-5">
+            <div class="card-body p-0">
+                <!-- Nested Row within Card Body -->
+                <div class="row">
+                    <div class="col-lg-5 d-none d-lg-block bg-register-image">
+                        <img class=img-fluid src="assets/imgs/senha.jpg">
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="p-5">
+                            <div class="text-center">
+                                <h1 class="h4 text-gray-900 mb-4">Esqueci a Senha:</h1>
+                            </div>
+                            <form class="user">
+
+                                <div class="col-">
+                                    <div class="form-group">
+                                        <label for="tiposusuario">Tipo de Usuário</label>
+                                        <select class="form-control" id="tiposusuario">
+                                            <option value="" selected disabled>Selecionar</option>
+                                            <option value="AL">Aluno</option>
+                                            <option value="RP">Responsável</option>
+                                            <option value="SV">Servidor</option>
+                                            <option value="PR">Professor</option>
+                                            <option value="AD">Administração</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <div class="col-sm-6 mb-3 mb-sm-0">
+                                        <label for="ra">R.A (para alunos)</label>
+                                        <input type="text" class="form-control form-control-user" id="ra" placeholder="Registro Acadêmico">
+                                    </div>
+                                    <div class="col-sm-6">
+                                        <label for="cpf">CPF</label>
+                                        <input type="text" class="form-control form-control-user" id="cpf" placeholder="000.000.000-00">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">E-mail</label>
+                                    <input type="email" class="form-control form-control-user" id="email" placeholder="email@exemplo.com">
+                                </div>
+                        <div class="row justify-content-center" align=center>
+                            <div class="col-sm- col-md-6 col-lg-6 col-xl-6">
+                                <a class="btn btn-block" href="home.html" role="button" style="background-color: #68c2e8;">Recuperar Senha</a>
+                            </div>
+                        </div>
+                            </form>
+                            <hr>
+                            <div class="text-center">
+                                <a class="small" href="home.html">Já tem uma conta? Faça o Login!</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Fim do Formulário -->
+
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Educatech - Área do Responsável</title>
+    <link rel="icon" href="assets/icons/favicon.png">
+    <!-- Script do Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!-- Inicio do Menu -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #68c2e8;">
+        <a class="navbar-brand" href="responsaveis_home.html">
+            <img src="assets/icons/LogoBrancoHidden.png" width="120" height="30" class="d-inline-block align-top" alt="">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor03">
+            <ul class="navbar-nav mr-auto"></ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Área do Responsável</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Serviços
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="responsaveis_boleto.html">Emitir Boleto</a>
+                        <a class="dropdown-item" href="responsaveis_forum.html">Fórum de Pais</a>
+                        <a class="dropdown-item" href="responsaveis_rematricula.html">Solicitar Rematrícula</a>
+                        <a class="dropdown-item" href="responsaveis_plano.html">Plano de Ensino</a>
+                        <a class="dropdown-item" href="responsaveis_quadro.html">Quadro de Avisos</a>
+                        <a class="dropdown-item" href="responsaveis_cardapios.html">Consultar Cardápios</a>
+                        <a class="dropdown-item" href="responsaveis_documentos.html">Envio de Documentos</a>
+                        <a class="dropdown-item" href="responsaveis_livros.html">Comprar Livros</a>
+                        <a class="dropdown-item" href="responsaveis_retirada.html">Autorizar Retirada</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href=sobre.html target="_blank">Sobre nós</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ajuda.html" target="_blank">Ajuda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="login_temp.html">Sair</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Fim do Menu -->
+
+    <!-- Inicio do Formulário -->
+    <div class="container">
+        <div class="card o-hidden border-0 shadow-lg my-5">
+            <div class="card-body p-4">
+                <!-- Nested Row within Card Body -->
+                <div class="row">
+                    <!-- Inicio do Menu Lateral -->
+                    <div class="col-lg-2 d-none d-lg-block bg-register-image">
+                        <div class="text-center">
+                            <img class=img-fluid src="assets/imgs/pais.png">
+                        </div>
+                        <hr>
+                        <nav class="nav flex-column">
+                            <a class="nav-link" href="responsaveis_boleto.html">Emitir Boleto</a>
+                            <a class="nav-link" href="responsaveis_forum.html">Fórum</a>
+                            <a class="nav-link" href="responsaveis_rematricula.html">Rematrícula</a>
+                            <a class="nav-link" href="responsaveis_plano.html">Plano de Ensino</a>
+                            <a class="nav-link" href="responsaveis_quadro.html">Avisos</a>
+                            <a class="nav-link" href="responsaveis_cardapios.html">Cardápios</a>
+                            <a class="nav-link" href="responsaveis_documentos.html">Enviar Doctos</a>
+                            <a class="nav-link" href="responsaveis_livros.html">Livraria</a>
+                            <a class="nav-link" href="responsaveis_retirada.html">Retirada</a>
+                        </nav>
+                    </div>
+                    <!-- Fim do Menu Lateral -->
+                    <!-- Inicio Coluna Principal -->
+                    <div class="col-lg-10">
+                        <div class="p-2">
+                            <div class="text-center">
+                                <h2 class="h2 text-gray-900 mb-5">Envio de Documentos
+                                    <br>
+                                    <h5>Busque em seu dispositivo o arquivo que deseja enviar</h5>
+                                </h2>
+                                <div class=row><br></div>
+                            </div>
+                            <div class="p-3">
+
+
+
+                                <div class="form-group row">
+                                    <label for="desc" class="col-sm-2 col-form-label">Descrição</label>
+                                    <div class="col-sm-10">
+                                        <input type="text" class="form-control" id="desc" placeholder="Faça uma breve descrição do documento">
+                                    </div>
+                                    <div class=row><br></div>
+                                </div>
+
+                                <div class="input-group">
+                                    <div class="custom-file">
+                                        <input type="file" class="custom-file-input" id="upload" aria-describedby="uploadarquivo" style="background-color: #68c2e8;">
+                                        <label class="custom-file-label" for="upload">Escolha o Arquivo</label>
+                                    </div>
+                                </div>
+                                <div class=row><br></div>
+                                <div class="row justify-content-center" align=center>
+                                    <div class="col-sm-12 col-md-6 col-lg-5 col-xl-4">
+                                        <button id="enviar" type="submit" class="btn btn-block" style="background-color: #68c2e8;">Enviar Documento</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Fim Coluna Principal -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- Fim do Formulário -->
+
+
+    <!-- Scripts do Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
